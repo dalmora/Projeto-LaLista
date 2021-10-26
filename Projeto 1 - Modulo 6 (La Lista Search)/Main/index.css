@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+    border: 0;
+    box-sizing: border-box;
+    justify-content: center;
+   
+}
+#logoPrincipal{
+    text-align: center;
+    display: flex;
+    margin: 15%;
+    position: sticky;
+}
+
+#cabeça{
+    background-color: rgb(116, 209, 178) ;
+    margin: 0px;
+    padding: 15px;
+    --start: 15%;
+    height: 130px;
+    background-image: repeating-radial-gradient(circle at var(--start), transparent 0%, transparent 10%, rgba(54, 89, 219, .33) 10%, rgba(54, 89, 219, .33) 17%), linear-gradient(to right, #5b7cfa, #3659db);
+    color: #fff;
+    position: relative;
+    
+    overflow: hidden;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#cabeça2{
+    background-color: rgb(116, 209, 178) ;
+    margin: 0px;
+    padding: 15px;
+    --start: 15%;
+    height: 130px;
+    background-image: repeating-radial-gradient(circle at var(--start), transparent 0%, transparent 10%, rgba(54, 89, 219, .33) 10%, rgba(54, 89, 219, .33) 17%), linear-gradient(to right, #5b7cfa, #3659db);
+    color: #fff;
+    position: relative;
+    
+    overflow: hidden;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    
+        margin: 0;
+        background-color: #eaeaea;
+        place-items: flex;    
+}
+
+input {
+    width: 250px;
+    border: 2px solid rgb(128, 122, 122);
+    background-color:snow;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 2px;
+    margin-right: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+button{
+  
+    height: 25px;
+}
+
+
+button:hover {
+border: 2px solid black;
+border-radius: 2px;
+transition: ease-in 0.5s;
+color: black;
+background: white;
+cursor: pointer;
+}
+
+#pesquisa {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#pesquisa2 {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#content {
+    display: flex;
+    /* grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr); */
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 50px;
+    font-family: 'Roboto Mono', monospace;
+    font: bolder;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+#content2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font: bolder;
+    font-weight: bolder;
+    align-items: center;
+
+    
+}
+
+
+#content img{
+    width: 150px;
+      
+}
+
+h1 {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 5px;
+}
+
+h3 {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+footer {
+    background-color: rgb(116, 209, 178) ;
+    margin: 0px;
+    margin-top: 50px;
+    padding: 0px;
+    --start: 15%;
+    background-image: repeating-radial-gradient(circle at var(--start), transparent 0%, transparent 10%, rgba(54, 89, 219, .33) 10%, rgba(54, 89, 219, .33) 17%), linear-gradient(to right, #5b7cfa, #3659db);
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    bottom: 0px;
+    position:fixed;
+    width: 100vw;
+    
+}
+
+.bannerPlace{
+    width: 97.5%
+    
+}
+
+.bannerPlace img{
+    width: 100% !important;
+    border-radius: 10px;
+
+}
+
+.geralDois {
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.geralDois:hover {
+    border: 1px solid black;
+    border-radius: 2px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    color: black;
+    background: rgb(116, 209, 178);   
+    box-shadow: 0 0 5px black;  
+    cursor: pointer;
+}
+
+a img{
+    width: 60px !important;
+}
+a {
+    text-decoration: none;
+}
+
+.galeria {
+    display: inline;
+    justify-content: center;
+    grid-gap: 4vw;
+    background-color: rgb(116, 209, 178) ;
+    --start: 15%;
+    height: 250px;
+    background-image: repeating-radial-gradient(circle at var(--start), transparent 0%, transparent 10%, rgba(54, 89, 219, .33) 10%, rgba(54, 89, 219, .33) 17%), linear-gradient(to right, #5b7cfa, #3659db);
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 10px;
+    padding-top: 20px;
+    
+    
+}
+.galeria img{
+    border: black, solid;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;  
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+.galeria img:hover{
+    transform: scale(2);
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1.5px solid black;
+    box-shadow: black;
+}
+
+#botaoJogador{
+    border: 2px solid rgb(128, 122, 122);
+    background-color:snow;
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    font-family: 'Roboto Mono', monospace;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2px;
+    transition: ease-in 0.5s;
+}
+
+.mainClass{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.mainClass:hover{
+    border: 1px solid black;
+    border-radius: 2px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    color: black;
+    background: rgb(116, 209, 178);   
+    box-shadow: 0 0 5px black;  
+}
+
+.mainClass img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.mainClass2{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+
+.mainClass2 img{
+    margin-bottom: 50px;
+    width: 400px;
+    height: 400px;
+    border: black solid;
+    border-radius: 2px;
+}
+
+
+.infoPlace{
+    display: grid;
+    border-radius: 20px;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+
+.sociais{
+    display: list-item;
+    justify-content: center;
+    padding: 15px;
+    list-style-type: none;
+}
+
+.sociais img{
+    
+    width: 35px;
+    height: 45px;
+}
+
+.divGaleria{
+    display: inline;
+    justify-content: center;
+    grid-gap: 4vw;
+    background-color: rgb(116, 209, 178) ;
+    --start: 15%;
+    height: 250px;
+    background-image: repeating-radial-gradient(circle at var(--start), transparent 0%, transparent 10%, rgba(54, 89, 219, .33) 10%, rgba(54, 89, 219, .33) 17%), linear-gradient(to right, #5b7cfa, #3659db);
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.divGaleria img{
+    height: 200px;
+    width: 200px;
+    border: black, solid;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;  
+    --start: 15%;
+    background-image: repeating-radial-gradient(circle at var(--start), transparent 0%, transparent 10%, rgba(54, 89, 219, .33) 10%, rgba(54, 89, 219, .33) 17%), linear-gradient(to right, #5b7cfa, #3659db);
+    margin-top: 10px;
+}
+
+.divGaleria img:hover{
+    transform: scale(1.2);
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1.5px solid black;
+    box-shadow: black;
+}
+
+
+.iframeDiv iframe{
+    width: 60vw;
+    padding: 15px;
+    height: 100vh;
+}
+
+.mainText {
+    margin-bottom: 30px;
+}
+
+.mainText2 {
+    margin-bottom: 30px;
+}
+
+.texto1{
+    margin-bottom: 20px;
+}
